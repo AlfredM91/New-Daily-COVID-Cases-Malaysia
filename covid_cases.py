@@ -5,7 +5,6 @@ Created on Wed Jul 27 02:04:22 2022
 @author: aaron
 """
 
-
 from covid_module import ExploratoryDataAnalysis,ModelDevelopment,ModelEvaluation
 import pandas as pd
 import numpy as np
