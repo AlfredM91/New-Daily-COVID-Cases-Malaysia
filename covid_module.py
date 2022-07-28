@@ -22,16 +22,12 @@ import os
 #%% Constants
 
 BEST_MODEL_PATH = os.path.join(os.getcwd(),'models','best_model.h5')
-OHE_PATH = os.path.join(os.getcwd(),'models','ohe.pkl')
 MMS_PATH = os.path.join(os.getcwd(),'models','mms.pkl')
 SS_PATH = os.path.join(os.getcwd(),'models','ss.pkl')
-BEST_PIPELINE_PATH = os.path.join(os.getcwd(),'models','model.pkl')
 PLOT_PATH = os.path.join(os.getcwd(),'statics','model.png')
 LOGS_PATH = os.path.join(os.getcwd(),'logs',datetime.now().
                          strftime('%Y%m%d-%H%M%S'))
 MODEL_PATH = os.path.join(os.getcwd(),'models','model.h5')
-GRID_PATH = os.path.join(os.getcwd(),'models','grid_best_estimator.pkl')
-TOKENIZER_SAVE_PATH = os.path.join(os.getcwd(),'saved_models','tokenizer.json')
 TIME_SERIES_ACTUAL_PREDICTED_PATH = os.path.join(os.getcwd(),'statics',
                                                  'time_series_actual_predicted.png')
 

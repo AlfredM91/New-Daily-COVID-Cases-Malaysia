@@ -80,12 +80,17 @@ me.dl_plot_hist(hist)
 me.timeseries_actual_predicted(df_train,df_test,df_concat,target,30,
                                 X_test,y_test,model,'mms')
 
+# from tensorflow.keras.models import load_model
 
+# BEST_MODEL_PATH = os.path.join(os.getcwd(),'models','best_model.h5')
+# best_model=load_model(BEST_MODEL_PATH)
 
+# from sklearn.metrics import mean_absolute_percentage_error
 
+# y_true = y_test
+# y_pred = best_model.predict(X_test)
 
-
-
+# print(mean_absolute_percentage_error(y_true, y_pred))
 
 
 
